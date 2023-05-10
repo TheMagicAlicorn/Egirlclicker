@@ -1,7 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 #include "sprites.h"
-#include "egirls.h"
+#include "egirls.hpp"
 
 class Game{
     public:

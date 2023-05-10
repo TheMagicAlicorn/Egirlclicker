@@ -91,4 +91,8 @@ include/SFML
 /include/*.h
 *.db
 
+# Tests
+test.c
+test.cpp
+
 # End of https://mrkandreev.name/snippets/gitignore-generator/#C,C++

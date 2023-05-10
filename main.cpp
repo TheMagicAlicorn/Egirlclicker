@@ -6,9 +6,9 @@
 #include <iomanip>
 #include <sstream>
 
-#include "egirls.h"
+#include "egirls.hpp"
 #include "db.h"
-#include "game.h"
+#include "game.hpp"
 #include "fonts.h"
 
 sf::ContextSettings settings;

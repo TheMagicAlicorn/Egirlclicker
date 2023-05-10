@@ -1,4 +1,4 @@
-#include "egirls.h"
+#include "egirls.hpp"
 
 void Egirls::increment(int daddyCount){
     count += daddyCount + 1;

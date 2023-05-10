@@ -1,7 +1,7 @@
 #include <cstdint>
 
-#ifndef EGIRLS_H
-#define EGIRLS_H
+#ifndef EGIRLS_HPP
+#define EGIRLS_HPP
 
 class Egirls{
 public:
