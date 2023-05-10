@@ -1,0 +1,56 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe Compiling",
+			"command": "C:\\msys64\\mingw64\\bin\\g++.exe",
+			"args": [
+				"-c",
+				"${file}",
+				"egirls.cpp",
+				"database_saving.c",
+				"-I.\\",
+				"-I.\\include\\"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: C:\\msys64\\mingw64\\bin\\g++.exe"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe Static Linking",
+			"command": "C:\\msys64\\mingw64\\bin\\g++.exe",
+			"args": [
+				"${fileBasenameNoExtension}.o",
+				"egirls.o",
+				"database_saving.o",
+				"-L.\\lib\\",
+				"-static",
+				"-lsfml-graphics-s",
+				"-lsfml-window-s",
+				"-lsfml-system-s",
+				"-lopengl32",
+				"-lwinmm",
+				"-lgdi32",
+				"-lfreetype",
+				"-lsqlite3",
+				"-o",
+				"egirlclicker"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: C:\\msys64\\mingw64\\bin\\g++.exe"
+		}
+	]
+}
